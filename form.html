@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Request a Game</title>
+    <meta charset="utf-8">
+    <link href="skinkult.css" rel="stylesheet">
+</head>
+<body> <div id="wrapper">
+    <header>
+        <h1><a href="index.html">The SkinKult</a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="table.html">Commonly Streamed Games</a></li>
+            <li><a href="form.html">Request a Game</a></li>
+        </ul>
+    </nav>
+   <h3>Request for a Game to be Streamed</h3>
+   <p>Request for a speific game to be streamed
+      Here!<br> Required fields are marked with an asterisk *.</p>
+   <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+    <label for="myTName">* Twitch Username</label>
+    <input type="text" name="myTName" id="myTName" required>
+
+    <label for="reGame">* Requested game</label>
+    <input type="text" name="reGame" id="reGame" required>
+
+    <label for="myComments">Any Comments you want in Additon to this</label>
+    <textarea name="myComments" id="myComments" rows="5" cols="25"></textarea>
+
+    <input type="submit">
+   </form>
+    <footer>
+                Copyright &copy; 2021 SkinKult Inc.<br>
+                <a href="mailto:Skin@Kult.com">
+                    Skin@Kult.com
+                </a>
+    </footer>
+</div>
+</body>

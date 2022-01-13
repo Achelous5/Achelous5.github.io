@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #630535;
+    color: #ed0c0c;
+}
+header {
+    background-color: black;
+    color: #bf1313;
+    height: 50px;
+    text-align: center;
+}
+nav {
+    padding: 1.5em;
+    font-weight: bold;
+    font-size: 120%;
+    float: left;
+    width: 200px;
+}
+nav a {
+    text-decoration: none;
+    color: #635c60;
+}
+nav ul {
+    list-style-image: none;
+    color: #333333;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 25px;
+}
+main {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    margin-left: 100px;
+    display: block;
+    overflow: auto;
+}
+h1 {
+    margin-bottom: 0;
+}
+dt {
+    color: #bf1313;
+}
+dd {
+    color: #ed0c0c;
+}
+a {
+    color: #ed0c0c;
+}
+footer {
+    font-style: italic;
+    font-size: 75%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 2em;
+    margin-left: 190px;
+}
+section {
+    float: left;
+    width: 3%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+table {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+td, th {
+    border: 2px solid #000000;
+    padding: 0.5em;
+}
+td {
+    text-align: center;
+}
+tr:nth-of-type(odd) {
+    background-color: #630535;
+}
+tr:nth-of-type(even) {
+    background-color: #773939;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 350px;
+}
+#wrapper {
+    background-color: #5e0b0b;
+    background-image: linear-gradient(to bottom, #5e0b0b, #000000);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+    border: 1px solid #5f0000;
+}
+
